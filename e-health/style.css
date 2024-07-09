@@ -1,0 +1,203 @@
+/* Base Styles */
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	color: #333;
+  }
+  
+  /* Light Green and Green Color Scheme */
+  .bg-light-green {
+	background-color: #e9f7ef;
+  }
+  
+  .bg-green {
+	background-color: #03612a;
+  }
+  
+   .nav-link {
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	background: linear-gradient(Lightgreen,rgb(45, 77, 4));
+	border-radius: 5px;
+  }
+  
+   .nav-link:hover {
+	color: #055a28;
+  }
+  .active{
+	color: #032d0c !important;
+  }
+
+  .navbar{
+	max-height: 80px;
+  }
+
+ 
+/* Carousel Custom Styles */
+.carousel-item {
+    padding: 80px 0; /* Adjust as needed for spacing */
+}
+
+.carousel-content {
+    padding: 20px;
+}
+
+.carousel-content h1 {
+    font-size: 2.5rem;
+	font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.carousel-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+	color: #055a28;
+    margin-bottom: 20px;
+}
+.carousel-content   span{
+	color: #03612a;
+}
+
+.carousel-content .btn {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        padding: 40px 0; /* Adjust as needed for spacing on smaller screens */
+    }
+
+    .carousel-content h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-content p {
+        font-size: 1rem;
+    }
+}
+
+
+  .carousel-item img{
+	max-width: 500px;
+	max-height: 400px;
+  }
+
+  .logo img{
+	max-width: 100px;
+	height: auto;
+	border-radius: 50%;
+	padding: 10px 20px;
+  }
+  
+  
+  
+  .carousel-caption h5,
+  .carousel-caption p {
+	color: #fff;
+  }
+
+  .card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  .card:hover{
+	scale: 1.1;
+	box-shadow: 2px lightblue;
+	cursor: pointer;
+	transition:  2s ;
+  }
+  .card-title {
+	color: #068822;
+	text-align: center;
+	background: rgb(235, 239, 240);
+  }
+
+  .card img{
+	max-width: 200px;
+	max-height: auto;
+  }
+  
+.hospital{
+	width: 300px;
+	height: 100px;
+}
+
+ .hospital-card{
+	transition: none;
+	background: linear-gradient(Lightgreen,white);
+ }
+
+
+ .service-card1{
+	background: url("./img/blog1.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	text-align: center;
+ }
+ .service-card2{
+	background: url("./img/blog2.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	text-align: center;
+ }
+ .service-card3{
+	background: url("./img/blog3.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	text-align: center;
+ }
+ 
+
+  
+  /* Book Appointment Form */
+  #booking .form-label {
+	color: #2ecc71;
+  }
+  
+  #booking .form-control,
+  #booking .form-select {
+	border: 1px solid #2ecc71;
+  }
+  
+  #booking .form-control:focus,
+  #booking .form-select:focus {
+	box-shadow: 0 0 5px rgba(46, 204, 113, 0.5);
+	border-color: #2ecc71;
+  }
+
+  .booking img{
+	max-width: 400px;
+	height: auto;
+  }
+  
+  /* Footer */
+  footer {
+	background-color: #2ecc71;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+	.carousel-caption {
+	  font-size: 14px;
+	  padding: 5px;
+	}
+  
+	#doctors .card {
+	  margin-bottom: 20px;
+	}
+  
+	#hospital-details .row {
+	  text-align: center;
+	}
+  
+	#hospital-details img {
+	  margin-bottom: 20px;
+	}
+  }
+  
